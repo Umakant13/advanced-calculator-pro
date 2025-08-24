@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-# from forex_python.converter import CurrencyRates
 from pint import UnitRegistry
 import math
 import operator
