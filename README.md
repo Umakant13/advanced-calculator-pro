@@ -91,6 +91,43 @@ python3 -m venv venv
 source venv/bin/activate
 
 ```
+
+## 🚀 Deployment
+
+You can deploy **Advanced Calculator Pro** online using **Streamlit Community Cloud** in just a few steps:
+
+### 1. Push your code to GitHub
+Make sure your repository contains:
+- `app.py` (or your main Streamlit file)  
+- `requirements.txt` (all necessary libraries)  
+- Optional: screenshots or assets folder  
+
+```bash
+git add .
+git commit -m "Add app for deployment"
+git push origin main
+```
+
+### 2. Sign in to Streamlit Cloud
+
+Go to https://streamlit.io/cloud and log in using your GitHub account.
+
+### 3. Create a new app
+
+1. Click “New app”
+2. Select your GitHub repository
+3. Choose the branch (usually main)
+4. Set the main file to app.py
+5. Click “Deploy”
+
+### 4. Access your live app
+
+After deployment, Streamlit Cloud will provide a public URL like:
+
+```bash
+https://<your-username>-advanced-calculator-pro.streamlit.app
+```
+
 ## 🤝 Contributing
 
 Contributions are welcome!  
@@ -106,8 +143,10 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
+# Install dependencies
+pip install -r requirements.txt
+
+
 <p align="center"> Made with ❤️ by <a href="https://github.com/Umakant13">Umakant Dodtalle</a> </p>
 
 
-# Install dependencies
-pip install -r requirements.txt
