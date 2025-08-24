@@ -67,8 +67,6 @@ This app is divided into **five powerful modes** 🚀:
 Install Python 3 from [python.org](https://www.python.org/downloads/).  
 
 
-
-
 ### Installation  
 
 ```bash
@@ -83,8 +81,11 @@ python -m venv venv
 ```
 
 ### Install dependencies
+
+```bash
 pip install -r requirements.txt
 
+```
 
 ### Running the Application
 
