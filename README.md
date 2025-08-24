@@ -1,65 +1,77 @@
-# 🧮 Advanced Calculator Pro - A Feature-Rich Streamlit Application
+# 🧮 Advanced Calculator Pro  
+*A Feature-Rich Streamlit Application*
 
- <!-- Optional: Replace with a URL to a screenshot of your app -->
 
-A comprehensive, multi-functional calculator application built with Python and Streamlit. This app provides a clean, responsive, and user-friendly interface for various calculation needs, from simple arithmetic to complex scientific functions, programming conversions, and data analysis.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python" alt="Python Badge">
+  <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit" alt="Streamlit Badge">
+  <img src="https://img.shields.io/github/stars/Umakant13/advanced-calculator-pro?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/license/Umakant13/advanced-calculator-pro" alt="License">
+</p>
 
-## ✨ Features
+---
 
-This application is divided into five powerful modes:
+## ✨ Features  
 
--   **Scientific Calculator:** A fully-featured scientific calculator with standard arithmetic, trigonometric functions (`sin`, `cos`, `tan`), logarithms (`ln`, `log`), powers (`x²`, `xʸ`), roots (`√`), factorials (`n!`), and constants (`π`, `e`).
--   **Programmer Calculator:** Instantly convert integers between Decimal, Hexadecimal, and Binary. Perform bitwise operations (`AND`, `OR`, `XOR`, `NOT`).
--   **Unit Converters:**
-    -   **Currency:** Real-time exchange rates using a public API.
-    -   **Physical Units:** Convert Length, Mass, Temperature, and Data Storage with a responsive keypad.
--   **Data Analysis:** Input a list of numbers (via pasting or keypad entry) to get key statistics (Mean, Median, Std Dev) and a histogram to visualize the data distribution.
--   **Graphing Calculator:** Plot one or more mathematical functions on an interactive graph. Supports `numpy` functions for complex plotting.
+This app is divided into **five powerful modes** 🚀:
 
-## 🛠️ Built With
+- 🧮 **Scientific Calculator** – Trigonometry, logarithms, powers, roots, factorials, π, e.  
+- 💻 **Programmer Calculator** – Decimal ↔ Hex ↔ Binary, bitwise operations.  
+- 🔄 **Unit Converters** –  
+  - 💱 Currency (real-time API)  
+  - 📏 Length, ⚖️ Mass, 🌡️ Temperature, 💾 Data Storage  
+- 📊 **Data Analysis** – Mean, Median, Std Dev, histogram visualization.  
+- 📈 **Graphing Calculator** – Plot single/multiple functions with NumPy support.  
 
--   **Python 3**
--   **Streamlit:** For creating the interactive web application UI.
--   **NumPy:** For numerical operations and data analysis.
--   **Matplotlib:** For plotting graphs and histograms.
--   **Pint:** For handling physical unit conversions with high accuracy.
--   **Requests:** For making API calls to fetch real-time currency data.
+---
 
-## 🚀 Getting Started
+## 🖼️ Screenshots  
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+<p align="center">
+  <img src=""C:\Users\umaka\OneDrive\Pictures\Screenshots\Screenshot 2025-08-24 154835.png"" alt="Calculator Home" width="80%">
+</p>
 
-### Prerequisites
+<p align="center">
+  <img src="assets/screenshot2.png" alt="Scientific Calculator" width="80%">
+</p>
 
-You need to have Python 3 installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+<p align="center">
+  <img src="assets/screenshot3.png" alt="Graphing Calculator" width="80%">
+</p>
 
-### Installation
 
-1.  **Clone the repository:**
-    ```
-    git clone https://github.com/your-username/advanced-calculator-pro.git
-    cd advanced-calculator-pro
-    ```
+---
 
-2.  **Create and activate a virtual environment (recommended):**
-    -   On Windows:
-        ```
-        python -m venv venv
-        .\venv\Scripts\activate
-        ```
-    -   On macOS/Linux:
-        ```
-        python3 -m venv venv
-        source venv/bin/activate
-        ```
+## 🛠️ Tech Stack  
 
-3.  **Install the required packages:**
-    A `requirements.txt` file is included to install all necessary libraries at once.
-    ```
-    pip install -r requirements.txt
-    ```
+- 🐍 **Python 3**  
+- 🎨 **Streamlit** – Interactive UI  
+- 🔢 **NumPy** – Fast numerical computations  
+- 📊 **Matplotlib** – Graphing & histograms  
+- ⚖️ **Pint** – Unit conversions  
+- 🌐 **Requests** – API calls (currency)  
 
-### Running the Application
+---
 
-Once the installation is complete, you can run the app with a single command:
+## 🚀 Getting Started  
 
+### Prerequisites  
+Install Python 3 from [python.org](https://www.python.org/downloads/).  
+
+### Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/Umakant13/advanced-calculator-pro.git
+cd advanced-calculator-pro
+
+# Create & activate virtual environment (Windows)
+python -m venv venv
+.\venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
