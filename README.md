@@ -66,6 +66,9 @@ This app is divided into **five powerful modes** 🚀:
 ### Prerequisites  
 Install Python 3 from [python.org](https://www.python.org/downloads/).  
 
+
+
+
 ### Installation  
 
 ```bash
@@ -78,6 +81,10 @@ python -m venv venv
 .\venv\Scripts\activate
 
 ```
+
+### Install dependencies
+pip install -r requirements.txt
+
 
 ### Running the Application
 
@@ -142,10 +149,6 @@ This project is licensed under the **MIT License**.
 See the [LICENSE](LICENSE) file for details.  
 
 ---
-
-# Install dependencies
-pip install -r requirements.txt
-
 
 <p align="center"> Made with ❤️ by <a href="https://github.com/Umakant13">Umakant Dodtalle</a> </p>
 
