@@ -27,18 +27,26 @@ This app is divided into **five powerful modes** 🚀:
 
 ## 🖼️ Screenshots  
 
+
 <p align="center">
-  <img src=""C:\Users\umaka\OneDrive\Pictures\Screenshots\Screenshot 2025-08-24 154835.png"" alt="Calculator Home" width="80%">
+  <img src="assets/Screenshot 2025-08-24 154745.png" alt="Calculator Home" width="80%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshot2.png" alt="Scientific Calculator" width="80%">
+  <img src="assets/Screenshot 2025-08-24 154745.png" alt="Programmer" width="80%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshot3.png" alt="Graphing Calculator" width="80%">
+  <img src="assets/Screenshot 2025-08-24 154906.png" alt="Converters" width="80%">
 </p>
 
+<p align="center">
+  <img src="assets/Screenshot 2025-08-24 154934.png" alt="Data Analysis" width="80%">
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot 2025-08-24 155131.png" alt="Graphing Calculator" width="80%">
+</p>
 
 ---
 
@@ -69,9 +77,37 @@ cd advanced-calculator-pro
 python -m venv venv
 .\venv\Scripts\activate
 
+```
+
+### Running the Application
+
+Once the installation is complete, you can run the app with a single command:
+
+```bash
+streamlit run app.py
+
 # macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+
+```
+## 🤝 Contributing
+
+Contributions are welcome!  
+If you’d like to improve this project, please **fork the repo** and submit a **pull request**.  
+You can also open an **issue** to suggest features or report bugs.  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.  
+
+---
+
+<p align="center"> Made with ❤️ by <a href="https://github.com/Umakant13">Umakant Dodtalle</a> </p>
+
 
 # Install dependencies
 pip install -r requirements.txt
