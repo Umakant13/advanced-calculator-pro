@@ -1,5 +1,5 @@
 # 🧮 Advanced Calculator Pro  
-*A Feature-Rich Streamlit Application*
+*A Feature-Rich Streamlit Application* 
 
 
 <p align="center">
