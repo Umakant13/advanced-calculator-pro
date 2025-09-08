@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python" alt="Python Badge">
   <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit" alt="Streamlit Badge">
-  <img src="https://img.shields.io/github/stars/Umakant13/advanced-calculator-pro?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/stars/Umakant13/advanced-calculator-pro?style=social" alt="GitHub Stars"> 
   <img src="https://img.shields.io/github/license/Umakant13/advanced-calculator-pro" alt="License">
 </p>
 
